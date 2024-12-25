@@ -1,0 +1,2 @@
+# React useEffect Async/Await Cleanup Issue
+This repository demonstrates a common issue encountered when using async/await within the React useEffect hook.  Failure to properly handle the asynchronous operation can result in memory leaks or unexpected behavior. The `bug.js` file showcases the problematic code, while `bugSolution.js` provides the corrected implementation.  The issue stems from the lack of a cleanup function to cancel or manage the ongoing asynchronous operation when the component unmounts or updates.
